@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <head>
-        <title>My Personal Website</title>
-      </head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Frazee AutocBody & Mechanic</title>
   </head>
   <body>
-    <body>
-        <h1>Hello World!</h1>
-      </body>
+    <nav>
+      </div>
+      <div class="Logo">Frazee Auto Body & Mechanic
+      </div>
+      <div class="nav-items">
+        <a href="/">Home</a>
+        <a href="/">Photo Gallery</a>
+        <a href="/">Contact</a>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="column-left">
+          <h1>Contact for more details</h1>
+          <p>We have all of your Auto Body and Mechanic needs. Hours of operation are Monday-Friday 9AM to 5PM.</p>
+          <button>
+            <a href="https://www.facebook.com/profile.php?id=100067785423408">Check out our facebook page</a>
+          </button>
+      </div>
+      <div class="column-right">
+        <img src="FB_IMG_1707763132466.jpg" alt="Vehicle 2" class="hero-image" />
+      </div>
+     </div>
+    </section> 
+      <div class="container">
+      <header class="bottom-header">
+        <h1>Photo Gallery</h1>
+      </header>
+    </div>
+    <div class="gallery-container">
+      <div class="image_gallery">
+      <img src="FB_IMG_1707781517915.jpg" onclick="showImage('FB_IMG_1707781517915.jpg')"> 
+      <img src="FB_IMG_1707781538506.jpg" onclick="showImage('FB_IMG_1707781538506.jpg')"> 
+      <img src="FB_IMG_1707781336418.jpg" onclick="showImage('FB_IMG_1707781336418.jpg')"> 
+      <img src="FB_IMG_1707781346579.jpg" onclick="showImage('FB_IMG_1707781346579.jpg')"> 
+      <img src="FB_IMG_1707781261092.jpg" onclick="showImage('FB_IMG_1707781261092.jpg')"> 
+      <img src="FB_IMG_1707781272052.jpg" onclick="showImage('FB_IMG_1707781272052.jpg')"> 
+  </div>
+  <div id="expanded_img" class="single_image_display">
+      <span class="close" onclick="closeImage()">&times;</span>
+      <img class="image_content" id="image">
+  </div>
+  </div>
+
+     <script src="script.js"></script>
   </body>
 </html>
